@@ -1,0 +1,82 @@
+*hosnu.txt*	open buffer for scratch
+
+	Happiness Of Scrach Number
+
+Version: 1.0
+Author : minanon <sumi.minano@gmail.com>
+License: {{{}}}
+
+
+Contents						*hosnu-contents*
+
+Introduction		|hosnu-introduction|
+Usage			|hosnu-usage|
+Install			|hosnu-install|
+Interface		|hosnu-interface|
+  Commands		  |hosnu-commands|
+ChangeLog		|hosnu-changelog|
+
+==============================================================================
+INTRODUCTION						*hosnu-introduction*
+
+*hosnu* or *hosnu.vim* is create and open new buffer for scratch
+
+==============================================================================
+USAGE						*hosnu-usage*
+
+	In case of opening new buffer for scratch on new tab
+>
+	:Hosnu
+<
+
+	In case of opening new buffer for scratch on horizontally
+>
+	:Hosnu s
+<
+
+	In case of opening new buffer for scratch on vertically
+>
+	:Hosnu v
+<
+
+
+==============================================================================
+INSTALL					*hosnu-install*
+
+Install the distributed files into your Vim script directory which is usually
+~/.vim/, or $HOME/vimfiles on Windows.
+
+After installation you can run unite with the |:Hosnu| command.
+
+==============================================================================
+INTERFACE				*hosnu-interface*
+
+------------------------------------------------------------------------------
+COMMANDS 					*hosnu-commands*
+
+:Hosnu [{type}] 			*:Hosnu*
+		You can target {type} for opening new buffer by {action}
+
+==============================================================================
+FUNCTIONS						*hosnu-functions*
+
+hosnu#create([{type}])			*hosnu#create()*
+
+			You can target {type} for opening new buffer by {action}
+
+type		action
+{type}		{action}
+----------	----------
+<none>		tabnew
+s		sp
+v		vsp
+
+
+==============================================================================
+CHANGELOG					*hosnu-changelog*
+
+2014-10-14
+- Ver.1.0 public this plugin.
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
