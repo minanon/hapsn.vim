@@ -69,7 +69,7 @@ v		vsp
 
 
 ##CHANGELOG
-2014-10-14  
+2014-10-06  
 
 - Ver.1.0 public this plugin.
 
