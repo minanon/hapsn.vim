@@ -1,9 +1,9 @@
-#hosnu.vim
+#hapsn.vim
 open buffer for scratch
 
-*hosnu.txt*	open buffer for scratch  
+*hapsn.txt*	open buffer for scratch  
 
-Happiness Of Scrach Number  
+HAPpiness of Scrach Number  
 
 Version: 1.0  
 Author : minanon &lt;sumi.minano@gmail.com&gt;  
@@ -11,20 +11,20 @@ License: {{{}}}
 
 
 ###Contents
-Introduction		`hosnu-introduction`  
-Usage			`hosnu-usage`  
-Install			`hosnu-install`  
-Interface		`hosnu-interface`  
-Commands		  `hosnu-commands`  
-ChangeLog		`hosnu-changelog`  
+Introduction		`hapsn-introduction`  
+Usage			`hapsn-usage`  
+Install			`hapsn-install`  
+Interface		`hapsn-interface`  
+Commands		  `hapsn-commands`  
+ChangeLog		`hapsn-changelog`  
 
 ##INTRODUCTION
-*hosnu* or *hosnu.vim* is create and open new buffer for scratch  
+*hapsn* or *hapsn.vim* is create and open new buffer for scratch  
 ##USAGE
 In case of opening new buffer for scratch on new tab  
 
 ```vim
-:Hosnu
+:Hapsn
 ```
 
 
@@ -33,7 +33,7 @@ In case of opening new buffer for scratch on horizontally
 
 
 ```vim
-:Hosnu s
+:Hapsn s
 ```
 
 
@@ -42,7 +42,7 @@ In case of opening new buffer for scratch on vertically
 
 
 ```vim
-:Hosnu v
+:Hapsn v
 ```
 
 
@@ -51,15 +51,15 @@ In case of opening new buffer for scratch on vertically
 ##INSTALL
 Install the distributed files into your Vim script directory which is usually ~/.vim/, or $HOME/vimfiles on Windows.  
 
-After installation you can run unite with the `:Hosnu` command.  
+After installation you can run unite with the `:Hapsn` command.  
 
 ##INTERFACE
 ###COMMANDS
-###:Hosnu [{type}]
+###:Hapsn [{type}]
 You can target {type} for opening new buffer by {action}  
 
 ##FUNCTIONS
-hosnu#create([{type}])			*hosnu#create()*  
+hapsn#create([{type}])			*hapsn#create()*  
 You can target {type} for opening new buffer by {action} type		action  
 {type}		{action}  
 ----------	----------  

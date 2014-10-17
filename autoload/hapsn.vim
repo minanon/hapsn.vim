@@ -1,4 +1,4 @@
-function! hosnu#create(args)
+function! hapsn#create(args)
 
     let l:fopt = " +setlocal\\ buftype=nofile\\ noswapfile " . s:get_new_name()
 

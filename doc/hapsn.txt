@@ -1,66 +1,66 @@
-*hosnu.txt*	open buffer for scratch
+*hapsn.txt*	open buffer for scratch
 
-	Happiness Of Scrach Number
+	HAPpiness of Scrach Number
 
 Version: 1.0
 Author : minanon <sumi.minano@gmail.com>
 License: {{{}}}
 
 
-Contents						*hosnu-contents*
+Contents						*hapsn-contents*
 
-Introduction		|hosnu-introduction|
-Usage			|hosnu-usage|
-Install			|hosnu-install|
-Interface		|hosnu-interface|
-  Commands		  |hosnu-commands|
-ChangeLog		|hosnu-changelog|
-
-==============================================================================
-INTRODUCTION						*hosnu-introduction*
-
-*hosnu* or *hosnu.vim* is create and open new buffer for scratch
+Introduction		|hapsn-introduction|
+Usage			|hapsn-usage|
+Install			|hapsn-install|
+Interface		|hapsn-interface|
+  Commands		  |hapsn-commands|
+ChangeLog		|hapsn-changelog|
 
 ==============================================================================
-USAGE						*hosnu-usage*
+INTRODUCTION						*hapsn-introduction*
+
+*hapsn* or *hapsn.vim* is create and open new buffer for scratch
+
+==============================================================================
+USAGE						*hapsn-usage*
 
 	In case of opening new buffer for scratch on new tab
 >
-	:Hosnu
+	:Hapsn
 <
 
 	In case of opening new buffer for scratch on horizontally
 >
-	:Hosnu s
+	:Hapsn s
 <
 
 	In case of opening new buffer for scratch on vertically
 >
-	:Hosnu v
+	:Hapsn v
 <
 
 
 ==============================================================================
-INSTALL					*hosnu-install*
+INSTALL					*hapsn-install*
 
 Install the distributed files into your Vim script directory which is usually
 ~/.vim/, or $HOME/vimfiles on Windows.
 
-After installation you can run unite with the |:Hosnu| command.
+After installation you can run unite with the |:Hapsn| command.
 
 ==============================================================================
-INTERFACE				*hosnu-interface*
+INTERFACE				*hapsn-interface*
 
 ------------------------------------------------------------------------------
-COMMANDS 					*hosnu-commands*
+COMMANDS 					*hapsn-commands*
 
-:Hosnu [{type}] 			*:Hosnu*
+:Hapsn [{type}] 			*:Hapsn*
 		You can target {type} for opening new buffer by {action}
 
 ==============================================================================
-FUNCTIONS						*hosnu-functions*
+FUNCTIONS						*hapsn-functions*
 
-hosnu#create([{type}])			*hosnu#create()*
+hapsn#create([{type}])			*hapsn#create()*
 
 			You can target {type} for opening new buffer by {action}
 
@@ -73,7 +73,7 @@ v		vsp
 
 
 ==============================================================================
-CHANGELOG					*hosnu-changelog*
+CHANGELOG					*hapsn-changelog*
 
 2014-10-06
 - Ver.1.0 public this plugin.
